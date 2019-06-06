@@ -34,10 +34,14 @@ public class RadixSort {
     public static void main(String[] args)
     {
         int[] A=new int[]{73,22, 93, 43, 55, 14, 28, 65, 39, 81};
+        for(int num:A){
+            System.out.print(num+"\t");
+        }
+        System.out.println("");
         radixSort(A, 100);
         for(int num:A)
         {
-            System.out.println(num);
+            System.out.print(num+"\t");
         }
     }
 }
